@@ -1,0 +1,39 @@
+<!-- Define the document type -->
+<!DOCTYPE html>
+<!-- Set the language attribute -->
+<html lang="en">
+<!-- Header stuff, like including the styles.css file -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The title is what is displayed in the header bar in the browser -->
+  <title>The Counter thing!</title>
+  <!-- The link tag allows us to link the CSS File which makes everything look nice :) -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Lets import the JavaScript file.
+       The SRC attribute allows us to pick it from a file
+       The ./ means "Go to the folder this file is currently in".
+  -->
+  <script src="./scripts.js"></script>
+</head>
+<!-- The main page content. The class attribute helps with CSS later -->
+<body class="background">
+  <!-- h1-5 represents a header -->
+  <h1>Hello world!</h1>  
+  <!-- p represents a paragraph -->
+  <p>Welcome to my counting thing!</p>
+  <!-- br represents a Line Break (new line) -->
+  <br />
+  
+  <!-- You can stick elements in elements too! -->
+  <p>Visits since last restart: 
+    <!-- p elements can go multiline, but don't display newlines unless you put a "<br />" in them
+         span elements don't represent anything, and take their style from what they're inside
+         The id="count" is an attribute, that we will use in our javascript later
+         It's got a "0" in as that will be the default value. The JS will change this when we add it in.
+    -->
+    <span id="count">0</span>
+  </p>
+</body>
+</html>

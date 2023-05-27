@@ -1,0 +1,28 @@
+/* In CSS, we use this syntax! 
+element {
+  thing-to-change: value;
+}
+*/
+
+/* This sets any HTML elements with the tags <h1></h1> or <p></p>
+We'll change the colour of the text inside them to white
+By the way, if you're British like me, CSS spells color the American way. */
+h1, p {
+    color: white;
+  }
+  
+  /* White-on-white doesn't work. Lets set the background colour too. The grey #373737 looks good!
+  We set this to any elements with the class attribute set to "background"
+  Note that . refers to a class. */
+  
+  .background {
+    background-color: #373737;
+  }
+  
+  /* Make the visit count BIG 
+  Note that # refers to an ID. */
+  #count {
+    font-size: 32px;
+  }
+  
+  /*There are loads of things we can change in CSS. It's very complex and out of the scope of this tutorial though, so do some research! Google is your friend! */
